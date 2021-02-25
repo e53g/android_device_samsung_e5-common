@@ -28,6 +28,10 @@ PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 TARGET_SCREEN_DENSITY := 320
 
+# Audio
+PRODUCT_PACKAGES += \
+    audio_amplifier.msm8916
+
 # Audio configuration
 PRODUCT_COPY_FILES += \
 	$(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
@@ -35,6 +39,7 @@ PRODUCT_COPY_FILES += \
 # Platform info config
 PRODUCT_COPY_FILES += \
 	$(DEVICE_PATH)/configs/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml
+	$(DEVICE_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml
 
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += \
