@@ -43,7 +43,7 @@ void init_target_properties(void)
 		set_lte_properties();
 	}
 	else if (bootloader.find("E500H") == 0) {
-		device = (char *)"j53g";
+		device = (char *)"e53g";
 		model = (char *)"SM-E500H";
 		set_gsm_properties();
 	}

@@ -18,14 +18,12 @@
 #define _BDROID_BUILDCFG_H
 
 #define BTM_DEF_LOCAL_NAME   "Samsung Galaxy E5"
+
+#define BTA_DISABLE_DELAY 1000 /* in milliseconds */
 #define BLUETOOTH_QTI_SW TRUE
-#define BTC_INCLUDED TRUE
 // Disables read remote device feature
 #define BTA_SKIP_BLE_READ_REMOTE_FEAT FALSE
-#define MAX_ACL_CONNECTIONS    7
-#define MAX_L2CAP_CHANNELS    16
+#define MAX_L2CAP_CHANNELS 16
 // skips conn update at conn completion
-#define BTA_BLE_SKIP_CONN_UPD  FALSE
-#define BLE_VND_INCLUDED   TRUE
-#define BLE_PERIPHERAL_ADV_NAME  TRUE
+#define BTA_BLE_SKIP_CONN_UPD FALSE
 #endif

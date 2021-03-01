@@ -13,6 +13,7 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 #
+
 # Inherit from common
 include device/samsung/msm8916-common/BoardConfigCommon.mk
 

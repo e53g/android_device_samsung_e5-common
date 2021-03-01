@@ -16,5 +16,8 @@ Dimensions | 141.6 x 70.2 x 7.3 mm (5.57 x 2.76 x 0.29 in)
 Display | 720 x 1280 pixels, 5.0" (~294 ppi pixel density)
 Rear Camera  | 8 MP, 3264 x 2448 pixels, autofocus, LED flash
 Front Camera | 5.0 MP
+
+
 Copyright (C) 2017 The LineageOS Project
+
 ![Samsung Galaxy E5](http://cdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-e5-1.jpg "Samsung Galaxy E5")
