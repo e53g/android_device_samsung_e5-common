@@ -182,7 +182,7 @@ void vendor_load_properties()
 		set_gsm_properties();
 	}
 	else if (bootloader.find("E500M") == 0) {
-		device = (char *)"e5lte";
+		device = (char *)"e5lteub";
 		model = (char *)"SM-E500M";
 		set_lte_properties();
 	}
